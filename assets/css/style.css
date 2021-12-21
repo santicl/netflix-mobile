@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url('https://occ-0-2982-3933.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfW8k4em9JmRpE73mzt1ke_e3bKj4ASuT3mVUZNM8qjte-z7Cksn7vZD41bzYVLrSsGAsWSHBJOe3lxQTgUfVcS5nyE8.webp?r=3d0');
+    height: 720px;
+}
+
+.container-logo {
+    left: 0px;
+}
+
+.logo {
+    background: #b1060f;
+    height: 250px;
+    width: 60px;
+    position: relative;
+}
+
+.logo::before {
+    background: #b1060f;
+    height: 250px;
+    width: 60px;
+    position: absolute;
+    content: "";
+    left: 90px;
+}
+
+
+
+.logo-span {
+    position: absolute;
+    height: 250px;
+    width: 60px;
+    background: #e50913;
+    left: 46px;
+    transform: skew(20deg);
+    box-shadow: 0 0 10px #e50913
+}
