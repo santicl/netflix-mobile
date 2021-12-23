@@ -1,35 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Netflix</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
-        <header><!-- Header with image background -->
+
+<head>
+    <meta charset="utf-8">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Header with background image -->
+        <div class="container-section-all">
             <nav>
-                <div class="container-nav">
-                    <div class="container-logo">
-                        <!-- Logo created with CSS -->
-                        <div class="logo">
-                            <span class="logo-span"></span>
-                        </div>
-                    </div>
-                    <h2>Buscador</h2>
-                    <div class="img-user">
-                        <img src="" alt="id-user-content">
-                    </div>
-                </div>
+                <img class="brand" src="https://seeklogo.com/images/N/netflix-logo-6A5D357DF8-seeklogo.com.png" />
+                <ul class="user-content">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><a href="#"><img class="user" src="https://occ-0-2982-3933.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABeUqbfriC_pGWtwTa1KOx-ZSiQYa7ltLkOuduGxY_GRRc41ugYJNGYHe4LNcmshST4qkRSENvcs2xFomPc0rtX8wq2NG.png?r=b97" /></a>
+                    </li>
+                </ul>
             </nav>
-            <section class="section-items">
-                <div class="section-items-item">
-                    <ul>
-                        <li><a href="#">Series</a></li>
-                        <li><a href="#">Peliculas</a></li>
-                        <li><a href="#">Categoria</a></li>
+            <div class="section-main">
+                <section class="section-items">
+                    <div class="section-items-item">
+                        <ul>
+                            <li><a href="#">Series</a></li>
+                            <li><a href="#">Peliculas</a></li>
+                            <li><a href="#">Categoria</a> <i class="fas fa-sort-down"></i></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="section-main">
+                <section class="section-items-info-content">
+                    <img class="img-title"
+                        src="https://occ-0-2982-3933.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABZrbh5xopoggFdegadNK7aGSwbXWGB2hPOay_1ejROo3uY9ck73yBlc7vBHuSLgAUkbAK_pLCjFZZI0te51524F2mcawvFiq0lCRE9l_SZERm1rbvh7rWLND5Bb1fMtB5zWYGHXJ0AjNq8TWjPBfgww0gGUVQElCbQQ-ZvfymNUhTQ.webp?r=716"
+                        alt="">
+                    <ul class="section-items-i">
+                        <li>Siniestro</li>
+                        <li class="point">.</li>
+                        <li>Suspenso</li>
+                        <li class="point">.</li>
+                        <li>Emotivo</li>
+                        <li class="point">.</li>
+                        <li>Drama</li>
+                        <li class="point">.</li>
+                        <li>Accion</li>
                     </ul>
-                </div>
-            </section>
-        </header>
-    </body>
+                </section>
+            </div>
+            <div class="container-buttons">
+                <ul class="container-buttons-button">
+                    <li><i class="fas fa-plus"></i></li>
+                    <li>Mi lista</li>
+                </ul><button class="button" name="button"><i id="play" class="fas fa-play"></i>Reproducir</button><ul class="container-buttons-button"><li><i class="fas fa-info-circle"></i></li><li>Informacion</li></ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Aqui ira las demas peliculas</h2>
+    </main>
+
+    <!--<footer>
+        <ul class="footer-nav-items">
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Peliculas</a></li>
+            <li><a href="#">Categoria</a> <i class="fas fa-sort-down"></i></li>
+        </ul>
+    </footer> -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
